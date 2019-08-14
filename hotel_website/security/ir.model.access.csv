@@ -1,0 +1,14 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_hotel_room_public_user,hotel.room.public.user,hotel.model_hotel_room,,1,0,0,0
+access_product_product_public_user,product.product.public.user,product.model_product_product,,1,0,0,0
+access_product_template_public_user,product.template.public.user,product.model_product_template,,1,0,0,0
+access_product_pricelist_public_user,product.pricelist.public.user,product.model_product_pricelist,,1,0,0,0
+access_product_category_public_user,product.category.public.user,product.model_product_category,,1,0,0,0
+access_product_template_attribute_public_user,product.template.attribute.value.public.user,product.model_product_template_attribute_value,,1,0,0,0
+access_pricelist_item_public_user,product.pricelist.item.public.user,product.model_product_pricelist_item,,1,0,0,0
+access_account_tax_public_user,account.tax.public.user,account.model_account_tax,,1,0,0,0
+access_reservation_public_user,hotel.reservation.public.user,hotel_reservation.model_hotel_reservation,,1,0,0,0
+access_account_invoice_public_user,account.invoice.public.user,account.model_account_invoice,,1,0,0,0
+access_hotel_room_amenities_public_user,hotel.room.amenities.public.user,hotel.model_hotel_room_amenities,,1,0,0,0
+access_room_review_public_user,room.review.public.user,model_room_review,,1,0,1,0
+access_room_review_hotel_manager,room.review.hotel.manager,model_room_review,hotel.group_hotel_manager,1,1,1,1
